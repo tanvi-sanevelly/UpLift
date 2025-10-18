@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #000;
+    color: #000;
+    background-image: url(https://i.pinimg.com/736x/da/3f/96/da3f96ce149e08607e348e1f10c527b4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+ /* Header / Nav */
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    background-image: url(https://i.pinimg.com/736x/62/f8/51/62f851d861d95883fa9360edf9c371d5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+  }
+
+  nav ul li {
+    cursor: pointer;
+    position: relative;
+  }
+
+  nav ul li:last-child {
+    margin-right: 60px;
+  }
+
+  /* Dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    z-index: 100;
+    padding: 10px 0;
+  }
+  
+  .dropdown li {
+    padding: 10px 20px;
+  }
+  
+  .dropdown li a {
+    color: #333;
+    display: block;
+  }
+  
+  .dropdown li a:hover {
+    background-color: #f0f0f0;
+  }
+
+  /* WELCOME BANNER */
+  .welcome-banner {
+    border: 1px solid white;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/736x/db/c0/69/dbc069dd74cb38cce17cc5721fc6aacc.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .banner-text {
+    width: 45%;
+  }
+
+  .banner-text h2 {
+    margin-bottom: 10px;
+  }
+
+  .banner-text p {
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  .banner-images {
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+  }
+
+  .banner-images img {
+    width: 48%;
+    height: 150px;
+    background: #444;
+    border: 1px solid white;
+    object-fit: cover;
+  }
+
+  .intro-text {
+    max-width: 800px;
+    margin: 40px auto 20px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333; /* adjust if your site uses lighter text */
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+  }
+
+  /* MAIN SECTION */
+  .main-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  /* LEFT SIDE: Headings */
+  .headings {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .headings h3 {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    background-image: url(https://i.pinimg.com/736x/97/c6/8a/97c68ab3edf44cb7efff45a513224d38.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* RIGHT SIDE: Overlapping Images */
+  .overlap-images {
+    position: relative;
+    width: 45%;
+    height: 300px;
+  }
+
+  .overlap-images img {
+    position: absolute;
+    width: 70%;
+    height: 200px;
+    border: 1px solid white;
+    background: #555;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .overlap-images img:nth-child(1) {
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transform: rotate(-3deg);
+  }
+
+  .overlap-images img:nth-child(2) {
+    top: 25px;
+    left: 40px;
+    z-index: 2;
+    transform: rotate(2deg);
+  }
+
+  .overlap-images img:nth-child(3) {
+    top: 50px;
+    left: 80px;
+    z-index: 1;
+    transform: rotate(4deg);
+  }
+
+  /* FOOTER */
+  footer {
+    border: 1px solid white;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    min-height: 100px;
+    background-image: url(https://i.pinimg.com/736x/a6/35/72/a63572e36572818ecc51016df2bd24b1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  footer div {
+    width: 30%;
+    text-align: center;
+  }
+

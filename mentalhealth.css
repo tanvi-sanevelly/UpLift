@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #000;
+    color: #000;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMThiYXRjaDQtbnVubnktNDguanBn.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+/* Header / Nav */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    background-image: url(https://i.pinimg.com/736x/62/f8/51/62f851d861d95883fa9360edf9c371d5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+  }
+
+  nav ul li {
+    cursor: pointer;
+    position: relative;
+  }
+
+  nav ul li:last-child {
+    margin-right: 60px;
+  }
+
+  /* Dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    z-index: 100;
+    padding: 10px 0;
+  }
+  
+  .dropdown li {
+    padding: 10px 20px;
+  }
+  
+  .dropdown li a {
+    color: #333;
+    display: block;
+  }
+  
+  .dropdown li a:hover {
+    background-color: #f0f0f0;
+  }
+
+  /* Title Banner */
+  .title-banner {
+    border: 1px solid #fff;
+    margin: 20px 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOEq3sAw6QFM1qpuaHiCXDdgXWfX09xegrhlHypolOXCookS41CHfzH78UjeKqTwSR1f0&usqp=CAU) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .title-banner .img-box {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #fff;
+    background: #111;
+    object-fit: cover;
+    
+  }
+
+  .title-banner h2 {
+    text-align: center;
+    flex: 1;
+    font-size: 16px;
+  }
+
+  /* Section Heading */
+  .section-heading {
+    border: 1px solid #fff;
+    margin: 20px 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    min-height: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguV2JMSp3_1OtlEY6m7HvpjZzgjBjczuNPJOaZAfFQ7JlI9v2nMH9nNElhtXw6pH2pZI&usqp=CAU) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .section-heading p {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.4;
+    min-height: 50px;
+  }
+
+  /* Middle Images Section */
+  .image-sections {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    gap: 70px;
+    
+  }
+
+  .image-sections .box {
+    flex: 1;
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center;
+    min-height: 500px;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNDk0LWJnLTAwNmMteC5qcGc.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* Lower Sections */
+  .lower-sections {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .lower-sections .img-box img,
+  .title-banner .img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures image fills the box and maintains aspect ratio */
+      display: block;
+  }
+
+  .img-box {
+    width: 100%;
+    max-width: 150px;  /* optional */
+    height: 150px;     /* adjust as needed */
+    border: 1px solid #fff;
+  }
+
+  
+
+  .lower-sections .content-box {
+    flex: 1;
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: center;
+    min-height: 160px;
+    background-image: url(https://img.freepik.com/free-vector/vector-abstract-yellow-pastel-modern-textured-wallpaper_53876-115665.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* Footer */
+  footer {
+    border: 1px solid white;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    min-height: 100px;
+    background-image: url(https://i.pinimg.com/736x/a6/35/72/a63572e36572818ecc51016df2bd24b1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }

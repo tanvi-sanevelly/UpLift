@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UpLift</title>
+  <link rel="stylesheet" href="wellnesstools.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <!-- NAVBAR -->
+  <header>
+    <h1>UpLift</h1>
+    <nav>
+      <ul>
+        <li><a href="home2.html">Home</a></li>
+
+         <!-- Health Dropdown -->
+      <li class="dropdown-parent">
+        <a href="#" class="dropdown-toggle">Health ▾</a>
+        <ul class="dropdown">
+          <li><a href="mentalhealth.html">Mental Health</a></li>
+          <li><a href="physicalhealth.html">Physical Health</a></li>
+        </ul>
+      </li>
+
+      <li><a href="wellnesstools.html">Tools</a></li>
+      
+      <!-- Second dropdown: Resources -->
+      <li class="dropdown-parent">
+        <a href="#" class="dropdown-toggle">Resources ▾</a>
+        <ul class="dropdown">
+          <li><a href="tips.html">Healthy Lifestyle Tips</a></li>
+          <li><a href="quizzes.html">Interactive Quizzes</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </li>
+
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Title Banner -->
+  <section class="title-banner">
+    Wellness Tools
+  </section>
+
+<!-- TOP SECTION -->
+<section class="top-section">
+  <div class="feelings">
+    <h3>How are you feeling today?</h3>
+    <div class="button-group">
+      <button>Happy</button>
+      <button>Calm</button>
+      <button>Sad</button>
+      <button>Neutral</button>
+      <button>Stressed</button>
+      <button>Angry</button>
+      <button>Anxious</button>
+      <button>Tired</button>
+      <button>Motivated</button>
+    </div>
+  </div>
+
+  <div class="goal-setting">
+    <div class="goal-list">
+      <h3>Goal Setting</h3>
+      <p>Set goals for yourself and check them off along the way!</p>
+
+      <label><input type="radio" name="goal"> Finish reading a book</label>
+      <label><input type="radio" name="goal"> Go for a walk</label>
+      <label><input type="radio" name="goal"> Meditate for 10 mins</label>
+
+      <div class="add-goal">
+        <input type="text" id="new-goal" placeholder="Add your own goal...">
+        <button onclick="addGoal()">Add</button>
+      </div>
+    </div>
+    <div class="goal-img">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz9OR2Ucc3VL6DvFu2CtPnX6UMpScznvWT6Q&s">
+    </div>
+  </div>
+</section>
+
+  <!-- Journal + Stress Relief -->
+  <section class="middle-section">
+    <div class="journal">
+      <h3>Journal</h3>
+      <textarea placeholder="Type here..."></textarea>
+    </div>
+    <div class="stress-relief">
+      <div class="img-box">
+        <img src="https://wallpapers.com/images/featured/calm-background-g1y7p2km9ermddn7.jpg">
+      </div>
+      <div class="text">
+        <h3>Mindfulness Techniques</h3>
+        <p>
+          Mindfulness helps you stay present and focused, reducing stress and improving mental clarity. Techniques include deep breathing, guided meditation, body scans, and mindful observation of your surroundings. Practicing mindfulness regularly can boost concentration, calm your mind, and enhance overall well-being.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!-- BOTTOM SECTION -->
+<section class="bottom-section">
+  <div class="study-timer">
+    <h3>Study & Break Timer</h3>
+
+    <div class="study-video">
+      <iframe 
+        width="100%" 
+        height="315" 
+        src="https://www.youtube.com/embed/yzd2q43A-6A" 
+        title="Study Timer" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe> 
+
+    </div>
+  </div>
+
+  <div class="self-care">
+    <h3>Self-Care Checklist</h3>
+    <label><input type="checkbox"> Drink 2L of water</label>
+    <label><input type="checkbox"> Take a short walk</label>
+    <label><input type="checkbox"> Write in your journal</label>
+
+    <div class="add-task">
+      <input type="text" id="new-task" placeholder="Add your own self-care task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="extra-img">
+      <img src="https://www.stretchedcounselor.com/uploads/1/0/4/0/10408064/selfcare-banner-2_orig.png">
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <a href="resources.html" class="footer-link">Quick Links</a>
+    <a href="resources.html" class="footer-link">FAQ</a>
+    <a href="resources.html" class="footer-link">Contacts</a>
+  </footer>
+
+  <script src="home2.js"></script>
+  <script src="wellnesstools.js"></script>
+  </body>
+</html>

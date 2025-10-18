@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #000;
+    color: #000;
+    background-image: url(https://img.freepik.com/premium-vector/vector-hand-drawn-blue-stripes-hearts-background_921039-12612.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* Header / Nav */
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    background-image: url(https://i.pinimg.com/736x/62/f8/51/62f851d861d95883fa9360edf9c371d5.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+  }
+
+  nav ul li {
+    cursor: pointer;
+    position: relative;
+  }
+
+  nav ul li:last-child {
+    margin-right: 60px;
+  }
+
+  /* Dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    z-index: 100;
+    padding: 10px 0;
+  }
+  
+  .dropdown li {
+    padding: 10px 20px;
+  }
+  
+  .dropdown li a {
+    color: #333;
+    display: block;
+  }
+  
+  .dropdown li a:hover {
+    background-color: #f0f0f0;
+  }
+  /* Title Banner */
+  .title-banner {
+    border: 1px solid #fff;
+    margin: 20px 30px;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    background-image: url(https://wallpapers.com/images/hd/daisy-flowers-over-cute-pastel-yellow-aesthetic-x3yhfy08hog0arcu.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  /* Grid Layout */
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 30px;
+  }
+
+  .box {
+    border: 1px solid #fff;
+    padding: 20px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp20ofiP9X-pP5MOTLv4dC_xXXhurwL89I7A&s) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .box h3 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .box p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  /* Buttons */
+  .btn {
+    border: 1px solid black;
+    background: none;
+    color: black;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 12px;
+    align-self: flex-start;
+  }
+
+  /* Image Placeholder (Block Style) */
+  .img-box {
+    width: 100%;
+    height: 50px;       /* or whatever height you want */
+    border: 1px solid #fff;
+    overflow: hidden;   /* hides anything outside the box */
+  }
+  
+  .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* fills the box, may crop image */
+    display: block;
+  }
+
+  /* Footer */
+  footer {
+    border: 1px solid white;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    min-height: 100px;
+    background-image: url(https://i.pinimg.com/736x/a6/35/72/a63572e36572818ecc51016df2bd24b1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }

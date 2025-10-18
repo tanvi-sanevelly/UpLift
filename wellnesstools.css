@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  font-family: Poppins;
+  background-color: #000;
+  color: #000;
+  background-image: url(https://img.freepik.com/premium-vector/hand-painted-watercolor-sky-clouds-abstract-watercolor-background-blue-fluid-painting_101553-1703.jpg?semt=ais_hybrid&w=740&q=80);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* === NAVIGATION BAR === */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 15px 30px;
+  background-image: url(https://i.pinimg.com/736x/62/f8/51/62f851d861d95883fa9360edf9c371d5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 80px;
+}
+
+nav ul li {
+  cursor: pointer;
+  position: relative;
+}
+
+nav ul li:last-child {
+  margin-right: 60px;
+}
+
+/* === DROPDOWN === */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  z-index: 100;
+  padding: 10px 0;
+}
+
+.dropdown li {
+  padding: 10px 20px;
+}
+
+.dropdown li a {
+  color: #333;
+  display: block;
+}
+
+.dropdown li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* === TITLE BANNER === */
+.title-banner {
+  border: 1px solid #000;
+  margin: 20px 30px;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  background-image: url(https://pngmagic.com/webp_images/aesthetic-light-yellow-background.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* === TOP SECTION (Feelings + Goals in one row) === */
+.top-section {
+  display: flex;
+  gap: 20px;
+  margin: 20px 30px;
+}
+
+.feelings,
+.goal-setting {
+  flex: 1;
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjE3OTItYmFja2dyb3VuZC1tdC0wM2MuanBn.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.feelings h3,
+.goal-setting h3 {
+  font-family: 'Cormorant Garamond';
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-group button {
+  border: 1px solid #000;
+  background: none;
+  color: #000;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Add Goal + Task Inputs */
+.add-goal,
+.add-task {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-goal input,
+.add-task input {
+  flex: 1;
+  border: 1px solid #000;
+  padding: 6px;
+  font-family: 'Cormorant Garamond';
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.add-goal button,
+.add-task button {
+  border: 1px solid #000;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-family: 'Poppins';
+}
+
+.add-goal button:hover,
+.add-task button:hover {
+  background-color: #333;
+}
+
+.goal-img {   
+   object-fit: cover;}
+
+   .goal-setting img {
+     display: block;
+     width: 100%;          /* takes full width of the box */
+     height: 150px;         /* keeps natural aspect ratio */
+     margin-top: 15px;     /* small space above the image */
+     border-radius: 8px;   /* rounded corners like other boxes */
+     object-fit: cover;    /* ensures the image scales nicely */
+   }
+
+/* === JOURNAL + STRESS RELIEF === */
+.middle-section {
+  display: flex;
+  gap: 20px;
+  margin: 20px 30px;
+}
+
+.journal {
+  border: 1px solid #000;
+  flex: 1;
+  padding: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_BGukPajtgKLqDDSusX2moN7jqOwDaSLkNjA9zTjo12AhQn-qyWyXGoMRqfO2QMBw4E&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.journal textarea {
+  width: 100%;
+  height: 200px;
+  background: none;
+  border: 1px solid #000;
+  color: #000;
+  resize: none;
+  font-family: 'Cormorant Garamond';
+}
+
+.stress-relief {
+  border: 1px solid #000;
+  flex: 2;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_BGukPajtgKLqDDSusX2moN7jqOwDaSLkNjA9zTjo12AhQn-qyWyXGoMRqfO2QMBw4E&usqp=CAUg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.stress-relief .img-box {
+  flex: 1;
+  border: 1px solid #000;
+  background: #111;
+  height: 200px;
+  object-fit: cover;
+}
+
+.img .img-box{
+object-fit:cover;
+}
+
+.stress-relief .text {
+  flex: 1;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Cormorant Garamond';
+}
+
+/* === BOTTOM SECTION (Study Timer + Self-Care in one row) === */
+.bottom-section {
+  display: flex;
+  gap: 20px;
+  margin: 20px 30px;
+}
+
+.study-timer,
+.self-care {
+  flex: 1;
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjE3OTItYmFja2dyb3VuZC1tdC0wM2MuanBn.jpgg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.study-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+}
+
+.study-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  border-radius: 6px;
+}
+/* Self-care Section */
+.self-care label {
+  display: block;
+  margin: 8px 0;
+  font-family: 'Cormorant Garamond';
+}
+
+
+.self-care .extra-img img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  margin-top: 15px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.img-box {
+  width: 100%;       /* or a fixed width, e.g., 120px */
+  max-width: 250px;  /* optional */
+  height: 150px;     /* or whatever height you want */
+  border: 1px solid #000; /* optional */
+  overflow: hidden;  /* ensures image doesn’t spill out */
+}
+
+
+/* === FOOTER === */
+footer {
+  border: 1px solid white;
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  min-height: 100px;
+  background-image: url(https://i.pinimg.com/736x/a6/35/72/a63572e36572818ecc51016df2bd24b1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
